@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="kar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <img src="logo.png" alt="" class="logo">
+        <ul>
+            <li>Home</li>
+            <li> Service </li>
+            <li> Project  </li>
+            <li> About us </li>
+        </ul>
+        <button class="nav-btn"> Get started  <img src="arrow-white.png" alt=""></button>
+    </nav>
+    <div class="header">
+        <h1><span>SAJED</span><br><span>RAHMANI</span></h1>
+        <div class="btn-container">
+            <button class="btn-dark"> Join me  <img src="join-us-16.png" alt=""></button>
+            <button class="btn-light"> Know more  <img src="arrow-black.png" alt=""></button>
+        </div>
+        <p> Passionate UI/UX designers with 2+ years of experience.</p>
+        <img src="development-4536630_1280.png" alt="" class="development-img">
+    </div>
+    <script>
+        let navbar = document.querySelector('nav'); 
+
+        window.onscroll = function(){
+            if(window.scrollY > 0){
+                navbar.style.background = '#eefff9';
+            } else{
+                navbar.style.background = 'transparent' ;
+            }
+        }
+    </script>
+</body>
+</html>
